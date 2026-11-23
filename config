@@ -61,6 +61,6 @@ bindsym Control+Mod1+l exec "i3lock -c 000000"
 exec "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\""
 exec "setxkbmap -option 'caps:swapescape'"
 
-exec --no-startup-id feh --bg-scale $HOME/.local/share/wallpapers/eva01.jpg
+exec --no-startup-id feh --bg-scale $HOME/.local/share/wallpapers/black.jpg
 
 exec --no-startup-id picom -CGb
